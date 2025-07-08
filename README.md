@@ -4,7 +4,7 @@
 
 - 镜像商品：[shenyu网关](https://marketplace.huaweicloud.com/hidden/contents/564d306e-87f0-4ba3-b4b4-5dd57a915468#productid=OFFI1141938203605426176)
 - 镜像规格：Shenyu-2.5.1-kunpeng-HCE
-- 预制环境：jdk11
+- 预置环境：jdk11
 - 适配项：[ECS](https://support.huaweicloud.com/ecs/index.html)
 - CPU架构：ARM
 - 操作系统：Huawei Cloud EulerOS 2.0 64bit
