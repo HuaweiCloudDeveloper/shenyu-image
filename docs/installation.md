@@ -8,6 +8,9 @@
 > - RAM: 4GB 或更大
 > - Disk: 至少 40GrB
 
+### 前置条件
+> -  运行环境：JDK1.8+
+
 ## ‌二、安装部署部署
 
 ### 下载安装包
@@ -16,7 +19,7 @@
 
 ```bash
 cd /opt
-wget https://www.apache.org/dyn/closer.lua/shenyu/2.5.1/apache-shenyu-2.5.1-admin-bin.tar.gz
+wget https://archive.apache.org/dist/shenyu/2.5.1/apache-shenyu-2.5.1-admin-bin.tar.gz
 tar -zxvf apache-shenyu-2.5.1-admin-bin.tar.gz
 cd apache-shenyu-2.5.1-admin-bin/bin
 ./start.sh
@@ -25,7 +28,7 @@ cd apache-shenyu-2.5.1-admin-bin/bin
 #### 下载启动 Apache ShenYu Admin
 ```bash
 cd /opt
-wget https://www.apache.org/dyn/closer.lua/shenyu/2.5.1/apache-shenyu-2.5.1-bootstrap-bin.tar.gz
+wget https://archive.apache.org/dist/shenyu/2.5.1/apache-shenyu-2.5.1-bootstrap-bin.tar.gz
 tar -zxvf apache-shenyu-2.5.1-bootstrap-bin.tar.gz
 cd apache-shenyu-2.5.1-bootstrap-bin/bin
 ./start.sh

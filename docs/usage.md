@@ -62,10 +62,13 @@ Apache shenyu 这是一个异步的，高性能的，跨语言的，响应式的
 
 ## Shenyu网关使用
 
-### 相关文件存放地址
-安装包存放在/opt目录下，包含【apache-shenyu-2.5.1-admin-bin】和【apache-shenyu-2.5.1-bootstrap-bin】压缩包以及解压后的文件，和一个示例所需的一个java程序
+### 启动服务
 
-![img.png](images/img_5.png)
+```bash
+bash /opt/apache-shenyu-2.5.1-admin-bin/bin/start.sh
+
+bash /opt/apache-shenyu-2.5.1-bootstrap-bin/bin/start.sh
+```
 
 ### 验证部署结果
 
@@ -91,6 +94,7 @@ java -jar demo-0.0.1-SNAPSHOT.jar
 ![img_5.png](images/img_10.png)
 
 代理请求 ：curl http://127.0.0.1:9195/helloworld
+
 ![img_6.png](images/img_11.png)
 
 ### 参考文档
